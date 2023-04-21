@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Russo+One&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,6 +18,16 @@ nav {
 
 main {
     flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center; 
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    color: #f44336;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 footer {
